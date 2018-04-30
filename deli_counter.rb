@@ -7,7 +7,7 @@ def line(katz_deli)
       line_order << "#{index + 1}. #{customer}"
     end
     puts "The line is currently: #{line_order}."
-  elsif katz_deli.length == 0 
+  elsif katz_deli.length == 0
     puts "The line is currently empty."
   end
 end
