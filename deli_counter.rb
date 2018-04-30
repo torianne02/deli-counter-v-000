@@ -21,4 +21,5 @@ end
 def now_serving(katz_deli)
   if katz_deli.length >= 1
     puts ""
+  end
 end
