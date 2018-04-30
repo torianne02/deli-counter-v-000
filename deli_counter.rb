@@ -2,7 +2,7 @@ katz_deli = []
 
 def line(name)
   if katz_deli == nil
-    return "The line is currently empty."
+    puts "The line is currently empty."
   end
 end
 
