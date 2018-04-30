@@ -20,6 +20,6 @@ end
 
 def now_serving(katz_deli)
   if katz_deli.length >= 1
-    puts ""
+    puts "Currently serving #{katz_deli[0]}."
   end
 end
